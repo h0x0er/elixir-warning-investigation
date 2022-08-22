@@ -31,4 +31,4 @@ jobs:
       - uses: erlef/setup-elixir@8a52153811d9049cdfa73a1f387e21b604267bea
         with:
           otp-version: 22.3
-          elixir-version: 1.10
+          elixir-version: 1.11
