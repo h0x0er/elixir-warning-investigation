@@ -28,8 +28,8 @@ jobs:
           egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
 
       - uses: actions/checkout@d0651293c4a5a52e711f25b41b05b2212f385d28
-      - uses: erlef/setup-elixir@8a52153811d9049cdfa73a1f387e21b604267bea
+      - uses: erlef/setup-elixir@v1.12
         with:
           otp-version: 22.3
-          elixir-version: 1.11
-          disable_problem_matchers: true
+          elixir-version: 1.12
+#           disable_problem_matchers: true
